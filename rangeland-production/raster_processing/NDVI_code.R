@@ -70,3 +70,4 @@ ratio_raster <- NDVI_proj/mean_raster # Values less than one demonstrate that th
 ## Write final raster to file
 
 writeRaster(ratio_raster, filename = output_name, format = "GTiff", overwrite = TRUE, datatype = "FLT4S")
+
